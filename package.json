@@ -1,0 +1,25 @@
+{
+  "name": "serverless-aws-logs",
+  "version": "1.0.0",
+  "description": "Project to extract information from log file",
+  "main": "src/index.js",
+  "scripts": {
+    "deploy": "sls deploy",
+    "deploy-prod": "sls deploy --prod",
+    "test": "jest",
+  },
+  "keywords": [
+    "serverless",
+    "nodejs",
+    "aws",
+    "jest"
+  ],
+  "author": "Deyve Vieira",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.524.0"
+  },
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
